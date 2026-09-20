@@ -1,19 +1,34 @@
+<img src="assets/readme/hero.svg" alt="Beautify GitHub READMEs — a deterministic SVG visual system for repository homepages" width="100%">
+
 # beautify-github-readme
 
-> Redesign GitHub README homepages or create project-native pure SVG, hybrid SVG-composed PNG/WebP, and opt-in animated GIF assets. Use when a user asks to beautify, redesign, rebrand, visually upgrade, simplify, or audit a GitHub README; create only a hero, section headers, diagrams, badges, motion graphics, showcase modules, or other README assets; or turn a repository homepage into a cohesive visual story. If whole-README work versus asset-only work is unclear, ask which scope the user wants. For hero-like assets where pure SVG and generated raster material are both viable, explain the tradeoffs and confirm the implementation before creating the asset.
+Turn a repository homepage into a concise, theme-specific visual story. Markdown is the content layer; deterministic SVG is the layout system; generated raster material is an optional ingredient.
 
-本仓库由 **Operit GitHub Publisher** 一键发布生成。
+## What it does
 
-## 内容
+- **README mode** — restructure the whole README: reading order, copy hierarchy, proof, and a coordinated visual system.
+- **Asset-only mode** — create just the requested visuals: hero, section headers, workflow diagrams, badges, or a coordinated set. Static SVG is the default; a GitHub-safe GIF is opt-in with the SVG kept as the editable fallback.
+- **Audit mode** — inspect a README without changing it.
 
-- 类型：Operit Skill（技能）
-- 标识：beautify-github-readme
-- 本地文件数：13
+## How it works
 
-## 说明
+<img src="assets/readme/workflow.svg" alt="Five-step pipeline: inspect, confirm mode, freeze direction, execute, preview and audit" width="100%">
 
-本资源来自本机已安装的技能目录 `/sdcard/Download/Operit/skills/beautify-github-readme`。
+One rule keeps it safe: the skill is **read-only by default**. It never commits, pushes, or opens a PR until you explicitly ask.
 
-### 安装 Skill
+## How to use
 
-将本仓库内容解压/复制到 `Operit/skills/<名称>/`（需含 `SKILL.md`）后即可被 Operit 识别。
+<img src="assets/readme/section-howto.svg" alt="How to use this skill" width="100%">
+
+```text
+use beautify-github-readme to redesign this repository homepage
+use beautify-github-readme to create one SVG hero and three section headers without modifying the README
+```
+
+## Install
+
+Copy this directory to `Operit/skills/beautify-github-readme/` (must include `SKILL.md`).
+
+---
+
+Published from Operit by GitHub Publisher.
