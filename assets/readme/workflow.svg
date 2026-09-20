@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" role="img" aria-label="Five-step pipeline: inspect, confirm mode, freeze direction, execute, preview and audit">
+  <title>Beautify pipeline</title>
+  <defs>
+    <style>
+      .sans{font-family:ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+      .mono{font-family:ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="300" rx="24" fill="#FBF9F4"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="298.5" rx="23" fill="none" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <circle cx="78" cy="59" r="4" fill="#D9531F"/>
+  <text class="mono" x="92" y="64" font-size="13" letter-spacing="3" fill="#8C857A">PIPELINE — FIVE STEPS, ONE RULE</text>
+
+  <!-- step cards -->
+  <g>
+    <rect x="72" y="96" width="188" height="150" rx="16" fill="#FFFFFF" stroke="#E3DCCF" stroke-width="1.5"/>
+    <rect x="288" y="96" width="188" height="150" rx="16" fill="#FFFFFF" stroke="#E3DCCF" stroke-width="1.5"/>
+    <rect x="504" y="96" width="188" height="150" rx="16" fill="#FFFFFF" stroke="#E3DCCF" stroke-width="1.5"/>
+    <rect x="720" y="96" width="188" height="150" rx="16" fill="#FFFFFF" stroke="#E3DCCF" stroke-width="1.5"/>
+    <rect x="936" y="96" width="188" height="150" rx="16" fill="#FFFFFF" stroke="#E3DCCF" stroke-width="1.5"/>
+  </g>
+
+  <!-- arrows between cards -->
+  <g stroke="#8C857A" stroke-width="1.5">
+    <line x1="266" y1="171" x2="290" y2="171"/>
+    <line x1="482" y1="171" x2="506" y2="171"/>
+    <line x1="698" y1="171" x2="722" y2="171"/>
+    <line x1="914" y1="171" x2="938" y2="171"/>
+  </g>
+  <g fill="#8C857A">
+    <path d="M290 171 l-7 -4 v8 z"/>
+    <path d="M506 171 l-7 -4 v8 z"/>
+    <path d="M722 171 l-7 -4 v8 z"/>
+    <path d="M938 171 l-7 -4 v8 z"/>
+  </g>
+
+  <!-- card 1 -->
+  <text class="mono" x="94" y="134" font-size="18" font-weight="600" fill="#D9531F">01</text>
+  <text class="sans" x="94" y="166" font-size="20" font-weight="650" fill="#191714">Inspect</text>
+  <text class="sans" x="94" y="196" font-size="13" fill="#6E675C">Read the repo,</text>
+  <text class="sans" x="94" y="216" font-size="13" fill="#6E675C">outputs and its</text>
+  <text class="sans" x="94" y="236" font-size="13" fill="#6E675C">identity first.</text>
+
+  <!-- card 2 -->
+  <text class="mono" x="310" y="134" font-size="18" font-weight="600" fill="#D9531F">02</text>
+  <text class="sans" x="310" y="166" font-size="20" font-weight="650" fill="#191714">Confirm</text>
+  <text class="sans" x="310" y="196" font-size="13" fill="#6E675C">Whole README, assets</text>
+  <text class="sans" x="310" y="216" font-size="13" fill="#6E675C">or audit. One</text>
+  <text class="sans" x="310" y="236" font-size="13" fill="#6E675C">compact question.</text>
+
+  <!-- card 3 -->
+  <text class="mono" x="526" y="134" font-size="18" font-weight="600" fill="#D9531F">03</text>
+  <text class="sans" x="526" y="166" font-size="20" font-weight="650" fill="#191714">Direction</text>
+  <text class="sans" x="526" y="196" font-size="13" fill="#6E675C">Freeze palette, type,</text>
+  <text class="sans" x="526" y="216" font-size="13" fill="#6E675C">motif and density</text>
+  <text class="sans" x="526" y="236" font-size="13" fill="#6E675C">before drawing.</text>
+
+  <!-- card 4 -->
+  <text class="mono" x="742" y="134" font-size="18" font-weight="600" fill="#D9531F">04</text>
+  <text class="sans" x="742" y="166" font-size="20" font-weight="650" fill="#191714">Execute</text>
+  <text class="sans" x="742" y="196" font-size="13" fill="#6E675C">Markdown stays</text>
+  <text class="sans" x="742" y="216" font-size="13" fill="#6E675C">content; SVG is</text>
+  <text class="sans" x="742" y="236" font-size="13" fill="#6E675C">the layout system.</text>
+
+  <!-- card 5, accent registration mark -->
+  <text class="mono" x="958" y="134" font-size="18" font-weight="600" fill="#D9531F">05</text>
+  <text class="sans" x="958" y="166" font-size="20" font-weight="650" fill="#191714">Preview</text>
+  <text class="sans" x="958" y="196" font-size="13" fill="#6E675C">Render at GitHub</text>
+  <text class="sans" x="958" y="216" font-size="13" fill="#6E675C">width, run the</text>
+  <text class="sans" x="958" y="236" font-size="13" fill="#6E675C">audit script.</text>
+  <path d="M1098 112 H1108 M1108 112 V122" stroke="#D9531F" stroke-width="2" fill="none"/>
+
+  <text class="mono" x="72" y="272" font-size="13" fill="#8C857A">read-only by default — nothing is committed, pushed, or opened as a PR until you ask</text>
+</svg>
