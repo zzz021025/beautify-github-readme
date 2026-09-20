@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="100%" role="img" aria-label="How to use this skill">
+  <title>How to use</title>
+  <defs>
+    <style>
+      .sans{font-family:ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+      .mono{font-family:ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+    </style>
+  </defs>
+  <rect x="0" y="0" width="1200" height="140" rx="20" fill="#191714"/>
+  <circle cx="54" cy="70" r="4" fill="#D9531F"/>
+  <text class="sans" x="76" y="66" font-size="26" font-weight="700" fill="#FBF9F4">How to use</text>
+  <text class="sans" x="76" y="96" font-size="15" fill="#B8B0A2">Ask in one line — the skill confirms mode, scope and output before drawing.</text>
+  <rect x="770" y="44" width="356" height="52" rx="12" fill="#FBF9F4"/>
+  <text class="mono" x="794" y="76" font-size="15" fill="#191714">"use beautify-github-readme on my repo"</text>
+  <path d="M1150 102 h-12 M1150 114 h-24" stroke="#D9531F" stroke-width="2" fill="none"/>
+</svg>
